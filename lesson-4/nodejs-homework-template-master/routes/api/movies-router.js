@@ -10,8 +10,8 @@ moviesRouter.get("/:id", moviesController.getById);
 
 moviesRouter.post("/", moviesController.add);
 
-moviesRouter.put("/:id", moviesController.updateById)
+moviesRouter.put("/:id", moviesController.updateById);
 
-moviesRouter.delete("/:id", moviesController.deleteById)
+moviesRouter.delete("/:id", moviesController.deleteById);
 
 export default moviesRouter;
